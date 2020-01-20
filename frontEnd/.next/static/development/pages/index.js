@@ -8342,6 +8342,7 @@ var Home = function Home(props) {
     },
     __self: this
   }, __jsx("a", {
+    title: "Sell Page",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20

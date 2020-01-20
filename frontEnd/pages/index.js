@@ -17,9 +17,11 @@ const Home = props => (
     <div>
       <p>Hey!</p>
         <Link href="/sell">
-            <a>Sell</a>
+            <a title="Sell Page">Sell</a>
         </Link>
     </div>
 );
+
+
 
 export default Home;
