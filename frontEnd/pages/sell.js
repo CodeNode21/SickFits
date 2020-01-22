@@ -4,9 +4,7 @@ import Link from 'next/link';
 const Sell = props => (
     <div>
         <p>Sell</p>
-        <Link href="/">
-            <a title="Home Page">Home</a>
-        </Link>
+
     </div>
 );
 

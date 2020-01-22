@@ -8327,28 +8327,14 @@ var Sell = function Sell(props) {
       lineNumber: 6
     },
     __self: this
-  }, "Sell"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("a", {
-    title: "Home Page",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Home")));
+  }, "Sell"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Sell);
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fsell&absolutePagePath=C%3A%5CUsers%5CMat%20Bed%5CDesktop%5CWesBos%5CSickFits%5Cfrontend%5Cpages%5Csell.js ***!
   \********************************************************************************************************************************************************/
@@ -8371,5 +8357,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=sell.js.map

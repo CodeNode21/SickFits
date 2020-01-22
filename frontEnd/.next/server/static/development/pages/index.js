@@ -9609,21 +9609,7 @@ const Home = props => __jsx("div", {
     lineNumber: 18
   },
   __self: undefined
-}, "Hey!"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/sell",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-}, __jsx("a", {
-  title: "Sell Page",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 20
-  },
-  __self: undefined
-}, "Sell")));
+}, "Hey!"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 

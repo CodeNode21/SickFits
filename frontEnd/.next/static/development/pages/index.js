@@ -8334,21 +8334,7 @@ var Home = function Home(props) {
       lineNumber: 18
     },
     __self: this
-  }, "Hey!"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/sell",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("a", {
-    title: "Sell Page",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "Sell")));
+  }, "Hey!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
