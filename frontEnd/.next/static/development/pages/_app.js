@@ -260,25 +260,31 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Page, [{
     key: "render",
     value: function render() {
-      return __jsx(StyledPage, {
+      return __jsx("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
-      }, __jsx(_Meta__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, __jsx(StyledPage, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, __jsx(_Meta__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         },
         __self: this
-      }), this.props.children);
+      }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }), this.props.children));
     }
   }]);
 

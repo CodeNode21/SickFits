@@ -16,11 +16,13 @@ const StyledPage = styled.div`
 class Page extends Component {
     render() {
         return (
-            <StyledPage>
-                <Meta />
-                <Header />
-                {this.props.children}
-            </StyledPage>
+            <div>
+                <StyledPage>
+                    <Meta />
+                    <Header />
+                     {this.props.children}
+                </StyledPage>
+            </div>
         )
     }
 }

@@ -316,25 +316,31 @@ const StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div`
 
 class Page extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx(StyledPage, {
+    return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19
       },
       __self: this
-    }, __jsx(_Meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }, __jsx(StyledPage, {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20
       },
       __self: this
-    }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    }, __jsx(_Meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
       },
       __self: this
-    }), this.props.children);
+    }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }), this.props.children));
   }
 
 }
