@@ -4,13 +4,16 @@
   "description": "Sick Fits is an example online store-front for educational purposes",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3000",
     "built": "next build",
     "start": "next start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-styled-components": "^1.10.7",
     "next": "^9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
