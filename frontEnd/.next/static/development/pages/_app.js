@@ -112,7 +112,7 @@ var Meta = function Meta() {
     __self: this
   }), __jsx("link", {
     rel: "shortcut icon",
-    href: "/statis/favicon.png",
+    href: "/static/favicon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7

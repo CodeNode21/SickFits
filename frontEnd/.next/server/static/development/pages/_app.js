@@ -202,7 +202,7 @@ const Meta = () => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __self: undefined
 }), __jsx("link", {
   rel: "shortcut icon",
-  href: "/statis/favicon.png",
+  href: "/static/favicon.png",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
