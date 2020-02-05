@@ -9626,7 +9626,7 @@ var Sell = function Sell(props) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fsell&absolutePagePath=C%3A%5CUsers%5CMat%20Bed%5CDesktop%5CWesBos%5CSickFits%5Cfrontend%5Cpages%5Csell.js ***!
   \********************************************************************************************************************************************************/
@@ -9649,5 +9649,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=sell.js.map
