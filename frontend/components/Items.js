@@ -30,7 +30,6 @@ const ItemsList = styled.div`
 class Items extends Component {
   render () {
     return (
-
       <Center>
         <Query query={ALL_ITEMS_QUERY}>
           {({ data, error, loading }) => {
