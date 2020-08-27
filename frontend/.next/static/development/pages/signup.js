@@ -21662,7 +21662,7 @@ var SignUpPage = function SignUpPage(props) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/signup.js ***!
   \*******************************/
@@ -21687,5 +21687,5 @@ module.exports = dll_7ab033043bc5918bfbad;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=signup.js.map
