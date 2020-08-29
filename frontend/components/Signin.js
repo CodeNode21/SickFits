@@ -33,10 +33,14 @@ class Signin extends Component {
         >
         {(signin, { error, loading }) => {
           return(
-            <Form method="post" onSubmit={(e) => {
-              e.preventDefault();
-              signin();
-            }}>
+            <Form 
+              method="post" 
+              onSubmit={async e => {
+                e.preventDefault();
+                await signin();
+                this.setState({ name: '', email: '', password: ''});
+              }}
+            >
               <fieldset disabled={loading} aria-busy={loading}>
                 <h2>Sign into your Account</h2>
                 <Error error={error} />
