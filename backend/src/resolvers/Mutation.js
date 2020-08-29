@@ -10,14 +10,16 @@ const Mutations = {
       throw new Error('You must be logged in to do that!');
     }
 
-    const item = await ctx.db.mutation.createItem({
+    const item = await ctx.db.mutation.createItem(
+      {
       data: {
+        // This is how to create a relationship between the data and the user
         user: {
           connect:{
-            id: ctx.request.userId,
-          }
-        }
-        ...args
+            id: ctx.request.userId
+          },
+        },
+        ...args,
       }
     }, info);
 
