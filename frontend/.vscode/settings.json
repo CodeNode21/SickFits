@@ -15,5 +15,6 @@
     "statusBar.foreground": "#15202b",
     "activityBar.activeBackground": "#ffd133"
   },
-  "peacock.color": "#FFC600"
+  "peacock.color": "#FFC600",
+  "git.ignoreLimitWarning": true
 }
