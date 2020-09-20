@@ -3,6 +3,7 @@ import StripeCheckout from 'react-stripe-checkout';
 import { Mutation } from 'react-apollo';
 import Router from 'next/router';
 import NProgress from 'nprogress';
+import PropTypes from 'prop-types';
 import gql from 'graphql-tag';
 import calcTotalPrice from '../lib/calcTotalPrice';
 import Error from './ErrorMessage';
@@ -37,6 +38,7 @@ class TakeMyMoney extends React.Component {
     }).catch(err => {
       alert(err.message);
     });
+    console.log(order)
     Router.push({
       pathname: '/order',
       query: { id: order.data.createOrder.id },
@@ -58,7 +60,7 @@ class TakeMyMoney extends React.Component {
                   name="Sick Fits"
                   description={`Order of ${totalItems(me.cart)} items!`}
                   image={me.cart.length && me.cart[0].item && me.cart[0].item.image}
-                  StripeKey="pk_test_51HRRSNFKonpXJdH2J71aUqwCZX7QynZX2yaKtCIPrTsgEir0WEUwRa5GSLq3VNkbryNultdiyzEfzdbJp17ICEQE00e24w6s06"
+                  stripeKey="pk_test_51HRRSNFKonpXJdH2J71aUqwCZX7QynZX2yaKtCIPrTsgEir0WEUwRa5GSLq3VNkbryNultdiyzEfzdbJp17ICEQE00e24w6s06"
                   currency="USD"
                   email={me.email}
                   token={res => this.onToken(res, createOrder)}
