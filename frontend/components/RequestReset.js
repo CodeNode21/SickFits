@@ -61,4 +61,5 @@ class RequestReset extends Component {
   }
 }
 
-export default RequestReset
+export default RequestReset;
+export { REQUEST_RESET_MUTATION };
